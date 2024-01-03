@@ -1,0 +1,145 @@
+@media (max-width:960px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .navbar {
+        height: 40px;
+        padding: 1rem;
+        /* flex-wrap: wrap;
+        /* padding: 5px; */
+        /* gap: 1rem;  */
+    }
+
+    h1 {
+        font-size: 3.5vh;
+    }
+
+
+
+    .menu {
+        width: 100%;
+      
+        /* gap: 2px; */
+        align-items: center;
+        justify-content: space-between;
+
+        a {
+            font-size: 1.2vh;
+        }
+    }
+
+    .main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* padding: 20px; */
+    }
+
+    .hero-section {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+
+
+
+    }
+
+    .hero-section-desc {
+        height: 25vh;
+        justify-content: space-evenly;
+        margin: 1rem;
+    }
+
+
+    .profile-picture {
+        width: 40vh;
+        margin-bottom: 2rem;
+    }
+
+    .icon {
+        font-size: 3vh;
+        margin: 1rem;
+    }
+
+
+
+    .about-me {
+        height: 100%;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 7rem;
+    }
+
+    .about-container {
+
+        width: 100%;
+        height: auto;
+        /* flex-wrap: wrap; */
+
+
+    }
+
+    .skills,
+    .education {
+        width: 100%;
+
+    }
+
+    .skills-icon,
+    .edu-icon {
+        font-size: 1.5rem;
+    }
+
+    .about-me-desc {
+
+        height: 20vh;
+        font-size: 1rem;
+        width: 100%;
+    }
+
+    .experience {
+        height: 100%;
+
+    }
+
+    .exp {
+        width: 100%;
+        margin: 1rem;
+    }
+
+    .project-box {
+
+        width: 40;
+        height: 40vh;
+        background-color: #fafafa;
+
+        .button-container {
+            width: 100%;
+        }
+
+
+    }
+
+    .project-img {
+        height: 20vh;
+    }
+
+    .contact {
+        height: 40vh;
+    }
+
+    .contact-info {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .footer-menu {
+        width: auto;
+        flex-direction: column;
+    }
+
+}
