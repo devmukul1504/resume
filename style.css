@@ -184,7 +184,7 @@ h1 {
 }
 
 .experience {
-    height: 120vh;
+    height: auto;
     width: 90vw;
     text-align: center;
     margin: 2rem;
